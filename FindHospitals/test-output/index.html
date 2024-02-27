@@ -1,0 +1,2100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 32 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2303886\eclipse-workspace\FindHospitals\FindHospitals\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">50 methods, 32 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply sort filter&quot;, &quot;regresssion&quot;)">runScenario("Apply sort filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply experince filter&quot;, &quot;smoke&quot;)">runScenario("Apply experince filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply patient story filter&quot;, &quot;smoke&quot;)">runScenario("Apply patient story filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply sort filter&quot;, &quot;smoke&quot;)">runScenario("Apply sort filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;gender and experience filter&quot;, &quot;regresssion&quot;)">runScenario("gender and experience filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply sort filter&quot;, &quot;smoke&quot;)">runScenario("Apply sort filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply patient story filter&quot;, &quot;smoke&quot;)">runScenario("Apply patient story filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply gender filter&quot;, &quot;regresssion&quot;)">runScenario("Apply gender filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply sort filter&quot;, &quot;regresssion&quot;)">runScenario("Apply sort filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply sort filter&quot;, &quot;regresssion&quot;)">runScenario("Apply sort filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Selecting Doctors&quot;, &quot;EndToEnd&quot;)">runScenario("Selecting Doctors", "EndToEnd")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply sort filter&quot;, &quot;smoke&quot;)">runScenario("Apply sort filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Store all the surgery&quot;, &quot;EndToEnd&quot;)">runScenario("Store all the surgery", "EndToEnd")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;select doctor specialization&quot;, &quot;smoke&quot;)">runScenario("select doctor specialization", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply patient story filter&quot;, &quot;smoke&quot;)">runScenario("Apply patient story filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;gender and experience filter&quot;, &quot;regresssion&quot;)">runScenario("gender and experience filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply gender filter&quot;, &quot;regresssion&quot;)">runScenario("Apply gender filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply gender filter&quot;, &quot;regresssion&quot;)">runScenario("Apply gender filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply gender filter&quot;, &quot;smoke&quot;)">runScenario("Apply gender filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;select doctor specialization&quot;, &quot;smoke&quot;)">runScenario("select doctor specialization", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Selecting Doctors&quot;, &quot;EndToEnd&quot;)">runScenario("Selecting Doctors", "EndToEnd")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;gender and experience filter&quot;, &quot;regresssion&quot;)">runScenario("gender and experience filter", "regresssion")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply cost filter&quot;, &quot;smoke&quot;)">runScenario("Apply cost filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply gender filter&quot;, &quot;smoke&quot;)">runScenario("Apply gender filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply gender filter&quot;, &quot;smoke&quot;)">runScenario("Apply gender filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply experince filter&quot;, &quot;smoke&quot;)">runScenario("Apply experince filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply cost filter&quot;, &quot;smoke&quot;)">runScenario("Apply cost filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Selecting Doctors&quot;, &quot;EndToEnd&quot;)">runScenario("Selecting Doctors", "EndToEnd")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;select doctor specialization&quot;, &quot;smoke&quot;)">runScenario("select doctor specialization", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply cost filter&quot;, &quot;smoke&quot;)">runScenario("Apply cost filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply experince filter&quot;, &quot;smoke&quot;)">runScenario("Apply experince filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;click on surgery&quot;, &quot;smoke&quot;)">runScenario("click on surgery", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;fill heath&amp;wellness form with invalid format&quot;, &quot;smoke&quot;)">runScenario("fill heath&wellness form with invalid format", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;select location&quot;, &quot;smoke&quot;)">runScenario("select location", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;fill heath&amp;wellness form with invalid format&quot;, &quot;smoke&quot;)">runScenario("fill heath&wellness form with invalid format", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;open health and wellness plans&quot;, &quot;smoke&quot;)">runScenario("open health and wellness plans", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply availability filter&quot;, &quot;smoke&quot;)">runScenario("Apply availability filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;count and store the popular surgery options&quot;, &quot;smoke&quot;)">runScenario("count and store the popular surgery options", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;open practo application&quot;, &quot;smoke&quot;)">runScenario("open practo application", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Capture the thank you message&quot;, &quot;smoke&quot;)">runScenario("Capture the thank you message", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Health and Wellness form&quot;, &quot;EndToEnd&quot;)">runScenario("Health and Wellness form", "EndToEnd")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;select location&quot;, &quot;smoke&quot;)">runScenario("select location", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Health and Wellness form&quot;, &quot;EndToEnd&quot;)">runScenario("Health and Wellness form", "EndToEnd")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply availability filter&quot;, &quot;smoke&quot;)">runScenario("Apply availability filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Capture the thank you message&quot;, &quot;smoke&quot;)">runScenario("Capture the thank you message", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;select location&quot;, &quot;smoke&quot;)">runScenario("select location", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;fill heath&amp;wellness form with invalid format&quot;, &quot;smoke&quot;)">runScenario("fill heath&wellness form with invalid format", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Apply availability filter&quot;, &quot;smoke&quot;)">runScenario("Apply availability filter", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Capture the thank you message&quot;, &quot;smoke&quot;)">runScenario("Capture the thank you message", "smoke")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FindHospitals.testRunner.testNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Health and Wellness form&quot;, &quot;EndToEnd&quot;)">runScenario("Health and Wellness form", "EndToEnd")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.FindHospitals.testRunner.testNGRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply sort filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("Apply sort filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply sort filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply experince filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply experince filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply experince filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply patient story filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply patient story filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply patient story filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply sort filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply sort filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply sort filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;gender and experience filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("gender and experience filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("gender and experience filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;Dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply sort filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply sort filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply sort filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply patient story filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply patient story filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply patient story filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply gender filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("Apply gender filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply gender filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply sort filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("Apply sort filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply sort filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply sort filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("Apply sort filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply sort filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Selecting Doctors&quot;, &quot;EndToEnd&quot;)">
+                  </a> <!-- runScenario("Selecting Doctors", "EndToEnd") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Selecting Doctors","EndToEnd")</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [682f1208ec10098b8b7ea047d3cab646, clickElement {id=7BF01C4ABF8551C82267273B82D74574_element_68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52001/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (682f1208ec10098b8b7ea047d3cab646)] -&gt; xpath: //*[@data-qa-id=&apos;years_of_experience_section&apos;]]
+Session ID: 682f1208ec10098b8b7ea047d3cab646
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.FindHospitals.pageObjects.specialityPage.selectExperience(specialityPage.java:81)
+	at com.FindHospitals.stepDefinitions.Smoke.user_selects_the_experience(Smoke.java:88)
+	at ✽.user selects the experience &quot;10+ Years of Experience&quot;(file:///C:/Users/2303886/eclipse-workspace/FindHospitals/FindHospitals/./FeatureFiles/EndToEnd.feature:14)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply sort filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply sort filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply sort filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Store all the surgery&quot;, &quot;EndToEnd&quot;)">
+                  </a> <!-- runScenario("Store all the surgery", "EndToEnd") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Store all the surgery","EndToEnd")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;Validate the title of the surgery page as &quot;Practo Care Surgeries | End to end care from top surgeons in your city&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;Validate the title of the surgery page as \&quot;Practo Care Surgeries | End to end care from top surgeons in your city&quot;)
+public void validate_the_title_of_the_surgery_page_as_practo_care_surgeries_end_to_end_care_from_top_surgeons_in_your_city() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;select doctor specialization&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("select doctor specialization", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("select doctor specialization","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply patient story filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply patient story filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply patient story filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;gender and experience filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("gender and experience filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("gender and experience filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply gender filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("Apply gender filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply gender filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply gender filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("Apply gender filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply gender filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;Dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply gender filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply gender filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply gender filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;select doctor specialization&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("select doctor specialization", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("select doctor specialization","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Selecting Doctors&quot;, &quot;EndToEnd&quot;)">
+                  </a> <!-- runScenario("Selecting Doctors", "EndToEnd") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Selecting Doctors","EndToEnd")</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b27e5ff286fb617e3cd90380da7752d8, getElementText {id=62116C13EC3DC0375EB99ACF69A689FF_element_76}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52060}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52060/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b27e5ff286fb617e3cd90380da7752d8)] -&gt; xpath: //*[@data-qa-id=&apos;years_of_experience_list&apos;]//span]
+Session ID: b27e5ff286fb617e3cd90380da7752d8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+	at com.FindHospitals.pageObjects.specialityPage.selectExperience(specialityPage.java:87)
+	at com.FindHospitals.stepDefinitions.Smoke.user_selects_the_experience(Smoke.java:88)
+	at ✽.user selects the experience &quot;15+ Years of Experience&quot;(file:///C:/Users/2303886/eclipse-workspace/FindHospitals/FindHospitals/./FeatureFiles/EndToEnd.feature:14)
+... Removed 5 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;gender and experience filter&quot;, &quot;regresssion&quot;)">
+                  </a> <!-- runScenario("gender and experience filter", "regresssion") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("gender and experience filter","regresssion")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply cost filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply cost filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply cost filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply gender filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply gender filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply gender filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply gender filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply gender filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply gender filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;Dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply experince filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply experince filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply experince filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply cost filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply cost filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply cost filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dentist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Selecting Doctors&quot;, &quot;EndToEnd&quot;)">
+                  </a> <!-- runScenario("Selecting Doctors", "EndToEnd") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Selecting Doctors","EndToEnd")</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.FindHospitals.stepDefinitions.Smoke.validate_the_experience(Smoke.java:95)
+	at ✽.validate the experience &quot;5+ Years of experience&quot;(file:///C:/Users/2303886/eclipse-workspace/FindHospitals/FindHospitals/./FeatureFiles/EndToEnd.feature:15)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;select doctor specialization&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("select doctor specialization", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("select doctor specialization","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;cardiologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply cost filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply cost filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply cost filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply experince filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply experince filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply experince filter","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;user seacrch for the &quot;dermatologist&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user seacrch for the {string}&quot;)
+public void user_seacrch_for_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;click on surgery&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("click on surgery", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("click on surgery","smoke")</span>
+                  <div class="stack-trace">io.cucumber.testng.UndefinedStepException: The step &apos;Validate the title of the surgery page as &quot;Practo Care Surgeries | End to end care from top surgeons in your city&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;Validate the title of the surgery page as \&quot;Practo Care Surgeries | End to end care from top surgeons in your city&quot;)
+public void validate_the_title_of_the_surgery_page_as_practo_care_surgeries_end_to_end_care_from_top_surgeons_in_your_city() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FindHospitals.testRunner.testNGRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;fill heath&amp;wellness form with invalid format&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("fill heath&wellness form with invalid format", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("fill heath&wellness form with invalid format","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;select location&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("select location", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("select location","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;fill heath&amp;wellness form with invalid format&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("fill heath&wellness form with invalid format", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("fill heath&wellness form with invalid format","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;open health and wellness plans&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("open health and wellness plans", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("open health and wellness plans","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply availability filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply availability filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply availability filter","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;count and store the popular surgery options&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("count and store the popular surgery options", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("count and store the popular surgery options","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;open practo application&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("open practo application", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("open practo application","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Capture the thank you message&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Capture the thank you message", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Capture the thank you message","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Health and Wellness form&quot;, &quot;EndToEnd&quot;)">
+                  </a> <!-- runScenario("Health and Wellness form", "EndToEnd") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Health and Wellness form","EndToEnd")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;select location&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("select location", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("select location","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Health and Wellness form&quot;, &quot;EndToEnd&quot;)">
+                  </a> <!-- runScenario("Health and Wellness form", "EndToEnd") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Health and Wellness form","EndToEnd")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply availability filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply availability filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply availability filter","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Capture the thank you message&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Capture the thank you message", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Capture the thank you message","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;select location&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("select location", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("select location","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;fill heath&amp;wellness form with invalid format&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("fill heath&wellness form with invalid format", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("fill heath&wellness form with invalid format","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Apply availability filter&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Apply availability filter", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Apply availability filter","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Capture the thank you message&quot;, &quot;smoke&quot;)">
+                  </a> <!-- runScenario("Capture the thank you message", "smoke") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Capture the thank you message","smoke")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Health and Wellness form&quot;, &quot;EndToEnd&quot;)">
+                  </a> <!-- runScenario("Health and Wellness form", "EndToEnd") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Health and Wellness form","EndToEnd")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303886\eclipse-workspace\FindHospitals\FindHospitals\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.FindHospitals.testRunner.testNGRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(50);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(0, 3, 40293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(1, 3, 36967);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(2, 3, 32329);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(3, 3, 29147);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(4, 3, 29143);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(5, 3, 28563);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(6, 3, 28291);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(7, 3, 28081);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(8, 3, 27835);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(9, 3, 27781);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(10, 3, 24439);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(11, 3, 22139);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(12, 3, 21857);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(13, 3, 18317);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(14, 3, 17898);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(15, 3, 17879);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(16, 3, 15656);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(17, 3, 15306);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(18, 3, 15127);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(19, 3, 14753);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(20, 3, 14280);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(21, 3, 14223);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(22, 3, 14216);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(23, 3, 13801);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(24, 3, 13708);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(25, 3, 13621);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(26, 3, 13558);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(27, 3, 13536);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(28, 3, 13371);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(29, 3, 13292);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(30, 3, 13271);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(31, 3, 13213);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(32, 3, 13210);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(33, 3, 13080);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(34, 3, 13079);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(35, 3, 13076);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runScenario')
+data.setCell(36, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(36, 3, 13043);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runScenario')
+data.setCell(37, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(37, 3, 12906);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runScenario')
+data.setCell(38, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(38, 3, 12817);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runScenario')
+data.setCell(39, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(39, 3, 12734);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runScenario')
+data.setCell(40, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(40, 3, 12716);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runScenario')
+data.setCell(41, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(41, 3, 12691);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runScenario')
+data.setCell(42, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(42, 3, 12655);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runScenario')
+data.setCell(43, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(43, 3, 12633);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(44, 3, 12632);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(45, 3, 12618);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(46, 3, 12553);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(47, 3, 12483);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runScenario')
+data.setCell(48, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(48, 3, 12477);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runScenario')
+data.setCell(49, 2, 'com.FindHospitals.testRunner.testNGRunner')
+data.setCell(49, 3, 11443);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FindHospitals.testRunner.testNGRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@4ff95435)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Selecting Doctors", "EndToEnd")</span>
+                <span class="method-start">2293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Selecting Doctors", "EndToEnd")</span>
+                <span class="method-start">39267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Selecting Doctors", "EndToEnd")</span>
+                <span class="method-start">67052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Store all the surgery", "EndToEnd")</span>
+                <span class="method-start">95617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Health and Wellness form", "EndToEnd")</span>
+                <span class="method-start">108892 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Health and Wellness form", "EndToEnd")</span>
+                <span class="method-start">133333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Health and Wellness form", "EndToEnd")</span>
+                <span class="method-start">155474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("gender and experience filter", "regresssion")</span>
+                <span class="method-start">177334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("gender and experience filter", "regresssion")</span>
+                <span class="method-start">189955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("gender and experience filter", "regresssion")</span>
+                <span class="method-start">203034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply sort filter", "regresssion")</span>
+                <span class="method-start">217259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply sort filter", "regresssion")</span>
+                <span class="method-start">230883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply sort filter", "regresssion")</span>
+                <span class="method-start">244595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply gender filter", "regresssion")</span>
+                <span class="method-start">257677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply gender filter", "regresssion")</span>
+                <span class="method-start">270334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply gender filter", "regresssion")</span>
+                <span class="method-start">283872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("open practo application", "smoke")</span>
+                <span class="method-start">296781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("select location", "smoke")</span>
+                <span class="method-start">308226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("select location", "smoke")</span>
+                <span class="method-start">320711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("select location", "smoke")</span>
+                <span class="method-start">333403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("select doctor specialization", "smoke")</span>
+                <span class="method-start">347684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("select doctor specialization", "smoke")</span>
+                <span class="method-start">362993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("select doctor specialization", "smoke")</span>
+                <span class="method-start">378122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply gender filter", "smoke")</span>
+                <span class="method-start">391337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply gender filter", "smoke")</span>
+                <span class="method-start">404056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply gender filter", "smoke")</span>
+                <span class="method-start">418811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply experince filter", "smoke")</span>
+                <span class="method-start">433029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply experince filter", "smoke")</span>
+                <span class="method-start">446833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply experince filter", "smoke")</span>
+                <span class="method-start">460127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply sort filter", "smoke")</span>
+                <span class="method-start">473211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply sort filter", "smoke")</span>
+                <span class="method-start">485846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply sort filter", "smoke")</span>
+                <span class="method-start">498401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply patient story filter", "smoke")</span>
+                <span class="method-start">511774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply patient story filter", "smoke")</span>
+                <span class="method-start">524986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply patient story filter", "smoke")</span>
+                <span class="method-start">537805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply cost filter", "smoke")</span>
+                <span class="method-start">550850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply cost filter", "smoke")</span>
+                <span class="method-start">563586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Apply cost filter", "smoke")</span>
+                <span class="method-start">576220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Apply availability filter", "smoke")</span>
+                <span class="method-start">588699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Apply availability filter", "smoke")</span>
+                <span class="method-start">617849 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Apply availability filter", "smoke")</span>
+                <span class="method-start">646141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("click on surgery", "smoke")</span>
+                <span class="method-start">674224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("count and store the popular surgery options", "smoke")</span>
+                <span class="method-start">687784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("open health and wellness plans", "smoke")</span>
+                <span class="method-start">728079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("fill heath&wellness form with invalid format", "smoke")</span>
+                <span class="method-start">743737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("fill heath&wellness form with invalid format", "smoke")</span>
+                <span class="method-start">761618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("fill heath&wellness form with invalid format", "smoke")</span>
+                <span class="method-start">779519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Capture the thank you message", "smoke")</span>
+                <span class="method-start">797838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Capture the thank you message", "smoke")</span>
+                <span class="method-start">826983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Capture the thank you message", "smoke")</span>
+                <span class="method-start">854819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">887167 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
